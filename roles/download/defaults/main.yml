@@ -95,7 +95,7 @@ crictl_supported_versions:
 crictl_version: "{{ crictl_supported_versions[kube_major_version] }}"
 
 # Download URLs
-kubelet_download_url: "https://storage.googleapis.com/kubernetes-release/release/{{ kube_version }}/bin/linux/{{ image_arch }}/kubelet"
+kubelet_download_url: "https://media.githubusercontent.com/media/jnodine-bah/kubetest/master/bin/kubelet"
 kubectl_download_url: "https://storage.googleapis.com/kubernetes-release/release/{{ kube_version }}/bin/linux/{{ image_arch }}/kubectl"
 kubeadm_download_url: "https://media.githubusercontent.com/media/jnodine-bah/kubetest/master/bin/kubeadm"
 etcd_download_url: "https://github.com/coreos/etcd/releases/download/{{ etcd_version }}/etcd-{{ etcd_version }}-linux-{{ image_arch }}.tar.gz"
@@ -202,7 +202,7 @@ kubelet_checksums:
     v1.15.3: dc08c9ad350d0046bc2ec910dcd266bd30cb6e7ef1f9170bb8df455d9d083d73
     v1.15.2: 5f1001608bac508ba7158704e8f762911dd52d0e16740984679f5c8263336e08
     v1.15.1: d9f5c09d47c448ac12b061821c1149aba32933cf79470a85e46d8b3b338aa72b
-    v1.15.0: f13b9a2f840e0e18b4fa92a217c95977036113c74f56bb0652efd2e7bcbfba15
+    v1.15.0: f44e879a070446ea4edb1ca6a530c716cbd02ba5e33ce96076392a55d489ecdc
 
 kubectl_checksums:
   arm:
