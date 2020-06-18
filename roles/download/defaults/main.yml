@@ -374,7 +374,7 @@ kubeadm_checksums:
     v1.15.3: ec56a00bc8d9ec4ac2b081a3b2127d8593daf3b2c86560cf9e6cba5ada2d5a80
     v1.15.2: fe2a13a1dea73249560ea44ab54c0359a9722e9c66832f6bcad86798438cba2f
     v1.15.1: 3d42441ae177826f1181e559cd2a729464ca8efadef196cfa0e8053a615333b5
-    v1.15.0: fc4aa44b96dc143d7c3062124e25fed671cab884ebb8b2446edd10abb45e88c2
+    v1.15.0: 9756f7d9bca0f9d6a4ff81a4c16598e898391e660e9771fffe59320d9c779ef8
 
 etcd_binary_checksums:
   # Etcd does not have arm32 builds at the moment, having some dummy value is
